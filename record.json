@@ -1,0 +1,120 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidFa49GhDMIO-nv7DCpxyG_vZq_zloOs4TyA_Hv80p0gMLa_9BEVm1y3l0Wcjs56-0Wsxi8Juv8dSTf-CFs6KCyz7UGVtGj5cA3SXgK4qaZXhLaVpTXCUsWli1iPDyTqvCEBZvx1G6mshS/s894/building_sports_gym.png",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://line.me/"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "運動鼠數",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "完成進度",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 3
+              },
+              {
+                "type": "text",
+                "text": "rate",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "總運動點數",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 3
+              },
+              {
+                "type": "text",
+                "text": "point",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "總運動時長",
+                "flex": 3,
+                "size": "sm",
+                "color": "#aaaaaa"
+              },
+              {
+                "type": "text",
+                "text": "duration",
+                "wrap": true,
+                "flex": 5,
+                "size": "sm",
+                "color": "#666666"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "離下周一剩餘",
+                "flex": 3,
+                "size": "sm",
+                "color": "#aaaaaa"
+              },
+              {
+                "type": "text",
+                "text": "countdown",
+                "flex": 5,
+                "size": "sm",
+                "color": "#666666",
+                "wrap": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
