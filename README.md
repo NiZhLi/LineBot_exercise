@@ -11,12 +11,13 @@
   - Firestore: 儲存運動記錄和點數
   - Realtime Database: 儲存即時運動狀態
 - **Python**: 主要程式語言
-- - -
+***
 - **部署**: Google Cloud Functions
   **註：部屬版本非此repo，部屬版本已於google cloud試用期結束時刪除**
 
 ## 🚀 功能介紹
 ### 🏃‍♂️ 運動追蹤
+使用line template按鈕：
 - **開始運動**: 輸入 `start_exercise` 開始計時
 - **結束運動**: 輸入 `end_exercise` 結束計時並計算運動時長
 - **自動計算點數**: 根據運動時間自動計算獎勵點數
@@ -32,8 +33,6 @@
 - **個人化**: 根據使用者 ID 分別記錄運動數據
 
 ## 📸 Demo 截圖
-
-
-![Bot 開始計時](./demo/demo1.png)
+![紀錄運動時間](https://github.com/NiZhLi/LineBot_exercise/blob/master/Bot紀錄運動時間.jpg)
 
 ## 📂 專案結構
