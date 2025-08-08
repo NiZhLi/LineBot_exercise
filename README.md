@@ -33,6 +33,35 @@
 - **個人化**: 根據使用者 ID 分別記錄運動數據
 
 ## 📸 Demo 截圖
-![紀錄運動時間](紀錄運動時間.jpg)
+### 開始運動&結束運動
+![紀錄運動時間](readmePic/紀錄時間.jpg)
+### 刪除記錄
+![刪除運動紀錄](readmePic/刪除紀錄.jpg)
+### 查看記錄
+![查看運動紀錄](readmePic/顯示紀錄.jpg)
 
-## 📂 專案結構
+## 🧠 學習重點 / 技術挑戰
+1. LINE Bot API 整合
+- LINE Bot SDK 的使用和配置
+- Webhook 處理機制
+- 訊息事件處理（文字訊息、成員加入事件）
+- Flex Message 的設計和實作
+
+2. Firebase 資料庫架構
+- Firestore: 儲存長期運動記錄和點數
+- Realtime Database: 儲存即時運動狀態
+
+3. Flask Web 框架
+- Flask 應用程式架構
+- 路由設定和請求處理
+- Webhook 端點的實作
+
+4. 時間處理和計算
+- 時間戳記的轉換和計算
+- 運動時長的計算邏輯
+- 點數系統的實作
+  
+5. 雲端部署
+- Google Cloud Platform 的部署
+- 環境變數的設定和管理
+- 服務帳號金鑰的配置
