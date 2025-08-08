@@ -33,6 +33,6 @@
 - **個人化**: 根據使用者 ID 分別記錄運動數據
 
 ## 📸 Demo 截圖
-![紀錄運動時間](https://github.com/NiZhLi/LineBot_exercise/blob/master/Bot紀錄運動時間.jpg)
+![紀錄運動時間](紀錄運動時間.jpg)
 
 ## 📂 專案結構
